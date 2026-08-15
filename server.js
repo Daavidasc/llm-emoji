@@ -44,7 +44,7 @@ app.post('/chat', async (req, res) => {
     sessions[sessionId].push({ role: 'user', content: mensaje });
 
     const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-6',
       max_tokens: 500,
       system: SYSTEM_PROMPT,
       messages: sessions[sessionId],
