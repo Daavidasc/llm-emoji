@@ -103,7 +103,7 @@
 </style>
 </head>
 <body>
-<header>LLMOJI, tu LLM santiaguino 🤖</header>
+<header>LLMOJI, tu LLM santiaguino</header>
 <div id="chat"></div>
 <div id="inputBar">
   <input id="input" type="text" placeholder="Escribe algo..." autocomplete="off">
@@ -180,7 +180,7 @@ async function sendMessage() {
     addSticker(data.sticker);
   } catch (err) {
     removeTyping();
-    addBubble('uy, algo se rompió 😅', 'bot');
+    addBubble('uy, algo se rompió', 'bot');
   } finally {
     sendBtn.disabled = false;
     input.focus();

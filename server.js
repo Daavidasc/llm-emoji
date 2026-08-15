@@ -28,7 +28,7 @@ const SYSTEM_PROMPT = `Eres LLMOJI, un LLM santiaguino que chatea de forma casua
 ${stickerDescriptions}
 
 4. Tu tono es relajado, chileno casual y natural. Usa modismos chilenos suaves de vez en cuando, como "bacán", "wena", "al tiro", "po", "cachai", "la raja" o "fome", sin exagerar ni sonar forzado.
-5. Puedes usar emojis en el texto también, pero el sticker es el remate final obligatorio.
+5. No uses emojis en el texto. El sticker es el remate visual final obligatorio.
 6. Nunca respondas solo texto sin sticker. El sticker es obligatorio siempre.`;
 
 // Guardamos historial en memoria por sesión (simple, sin DB, alcanza para demo)
@@ -90,7 +90,7 @@ app.post('/chat', async (req, res) => {
     console.error('Error en /chat:', err);
     // Fallback: nunca devolver texto plano vacío, mandamos un sticker por defecto
     res.status(200).json({
-      mensajes: ['uy, se me trabó el cerebro un segundo 😵'],
+      mensajes: ['uy, se me trabó el cerebro un segundo'],
       sticker: stickerNames[0]
     });
   }
