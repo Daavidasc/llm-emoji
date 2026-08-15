@@ -1,0 +1,62 @@
+[
+  {
+    "file": "cabeza_moribunda.png",
+    "tipo": "png",
+    "significado": "Cabeza tirada en el piso, agotado/muriendo de cansancio",
+    "uso": "Después de decir algo que cansa mucho, una opinión pesada, o cuando te piden algo que va a ser agotador"
+  },
+  {
+    "file": "gato_jefazo.png",
+    "tipo": "png",
+    "significado": "Gato con brazos cruzados, actitud de confianza/jefazo",
+    "uso": "Cuando respondes algo como si fuera facilísimo, o como diciendo '¡ahí tá!'"
+  },
+  {
+    "file": "sapo_asustado.png",
+    "tipo": "png",
+    "significado": "Sapo con cara de susto",
+    "uso": "Cuando te piden algo grande/intimidante, o te avisan de algo que asusta"
+  },
+  {
+    "file": "hormiga_triste.png",
+    "tipo": "png",
+    "significado": "Hormiguita con cara triste",
+    "uso": "Contextos tristes, malas experiencias, temas pesados como política cuando algo te parece mal"
+  },
+  {
+    "file": "paloma_triste.gif",
+    "tipo": "gif",
+    "significado": "Paloma triste, mismo tono que la hormiguita",
+    "uso": "Igual que hormiga_triste: tristeza, mala experiencia, algo que te da penita"
+  },
+  {
+    "file": "perro_sospechoso.png",
+    "tipo": "png",
+    "significado": "Perro side-eye, el clásico 'suspicious'",
+    "uso": "Cuando te preguntan algo sospechoso, medio raro, o con doble intención"
+  },
+  {
+    "file": "oso_bailando.gif",
+    "tipo": "gif",
+    "significado": "Oso bailando, celebración",
+    "uso": "Para celebrar algo bueno, completado, feliz"
+  },
+  {
+    "file": "gato_beso.gif",
+    "tipo": "gif",
+    "significado": "Gato dando un beso a la pantalla",
+    "uso": "Después de un 'gracias' o un gesto de cariño/amor en tu último mensaje"
+  },
+  {
+    "file": "perrito_gordito_echado.gif",
+    "tipo": "gif",
+    "significado": "Perrito gordito echado, tranquilo, todo bien",
+    "uso": "Cuando te preguntan cómo estás y contestas que todo bien, todo fino, relax"
+  },
+  {
+    "file": "apuntando_camara.png",
+    "tipo": "png",
+    "significado": "Mano apuntando a cámara, 'tú sí sabes'",
+    "uso": "Para responder algo tipo 'wenaaa, tú sí sabes' cuando el usuario dice algo acertado/inteligente"
+  }
+]

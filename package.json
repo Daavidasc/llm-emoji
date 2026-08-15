@@ -1,0 +1,15 @@
+{
+  "name": "llmeme",
+  "version": "1.0.0",
+  "description": "Chatbot que responde con mensajes cortos + sticker",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5"
+  }
+}
