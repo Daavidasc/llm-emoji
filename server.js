@@ -78,10 +78,10 @@ app.post('/chat', async (req, res) => {
 
     const { mensajes, sticker } = toolUse.input;
 
-    // Guardamos la respuesta del asistente en el historial (como texto plano resumido)
+    // Guardamos la respuesta como texto para mantener el historial compatible con Messages API.
     sessions[sessionId].push({
       role: 'assistant',
-      content: [{ type: 'tool_use', id: toolUse.id, name: toolUse.name, input: toolUse.input }]
+      content: `${mensajes.join('\n')}\n[sticker: ${sticker}]`
     });
 
     res.json({ mensajes, sticker });
